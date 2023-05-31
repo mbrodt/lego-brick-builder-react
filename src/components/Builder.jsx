@@ -1,30 +1,55 @@
-import { useEffect, useState } from "react";
-import { Application } from "../builder/Application";
-import TipsToggle from "./TipsToggle";
+import { useEffect, useState } from "react"
+import { useNavigate } from "react-router-dom"
+import { v4 as uuidv4 } from "uuid"
+import { Application } from "../builder/Application"
 
-import useBricksStore from "../store/bricks";
-import TipsOverlay from "./TipsOverlay";
+import TipsToggle from "./TipsToggle"
+
+import useBricksStore from "../store/bricks"
+import TipsOverlay from "./TipsOverlay"
 
 function Builder() {
-  const [isShowingTips, setIsShowingTips] = useState(true);
-  const bricks = useBricksStore((state) => state.bricks);
-  useEffect(() => {
-    const canvasDom = document.getElementById("builder");
-    console.log("canvasDom:", canvasDom);
+  console.log("rendering builder...")
+  const [isShowingTips, setIsShowingTips] = useState(false)
+  const navigate = useNavigate("/solutions")
 
-    const application = new Application(canvasDom, false);
-  }, []);
+  useEffect(() => {
+    console.log("use eff")
+    const canvasDom = document.getElementById("builder")
+    console.log("canvasDom:", canvasDom)
+
+    const application = new Application(canvasDom, false)
+  }, [])
 
   function closeTips() {
-    setIsShowingTips(false);
+    setIsShowingTips(false)
   }
 
   function openTips() {
-    setIsShowingTips(true);
+    setIsShowingTips(true)
   }
 
-  function submit() {
-    console.log("submit build", bricks);
+  async function submit() {
+    const bricks = useBricksStore.getState().bricks
+    console.log("submit build", bricks)
+    const data = {
+      id: uuidv4(),
+      meta: {
+        // Random number between 40 and 180
+        time: Math.floor(Math.random() * (180 - 40 + 1) + 40),
+        moves: 16,
+      },
+      bricks,
+    }
+    console.log("data:", data)
+    await fetch("http://localhost:3000/solutions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+    navigate("/solutions")
   }
   return (
     <div className="w-full h-full overflow-hidden relative bg-purple ">
@@ -56,7 +81,7 @@ function Builder() {
       />
       <TipsOverlay closeTips={closeTips} isShowingTips={isShowingTips} />
     </div>
-  );
+  )
 }
 
-export default Builder;
+export default Builder

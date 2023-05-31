@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 function StartBuilding() {
   return (
@@ -10,7 +10,7 @@ function StartBuilding() {
         Start building
       </Link>
     </div>
-  );
+  )
 }
 
-export default StartBuilding;
+export default StartBuilding

@@ -1,4 +1,4 @@
-import BuildingTips from "./BuildingTips";
+import BuildingTips from "./BuildingTips"
 
 function TipsOverlay({ isShowingTips, closeTips }) {
   return (
@@ -17,7 +17,7 @@ function TipsOverlay({ isShowingTips, closeTips }) {
         </button>
       </div>
     </div>
-  );
+  )
 }
 
-export default TipsOverlay;
+export default TipsOverlay
