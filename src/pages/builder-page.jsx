@@ -1,11 +1,11 @@
-import Builder from "../components/Builder";
+import Builder from "../components/Builder"
 
 function BuilderPage() {
   return (
-    <div className="w-full h-full ">
+    <div className="w-full h-full">
       <Builder />
     </div>
-  );
+  )
 }
 
-export default BuilderPage;
+export default BuilderPage
