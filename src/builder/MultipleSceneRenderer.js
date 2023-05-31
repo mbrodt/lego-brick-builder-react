@@ -8,13 +8,7 @@ import { CameraFactory } from "../builder/CameraFactory"
 const MAX_PIXEL_RATIO = 1.5
 
 export class MultipleSceneRenderer {
-  constructor({
-    canvas,
-    solutions,
-    mainSolution,
-    mainCanvas,
-    solutionCanvasses,
-  } = {}) {
+  constructor({ canvas, solutions, solutionCanvasses } = {}) {
     const renderer = new WebGLRenderer({
       canvas,
       alpha: true,
@@ -26,17 +20,13 @@ export class MultipleSceneRenderer {
 
     renderer.setPixelRatio(Math.max(window.devicePixelRatio, MAX_PIXEL_RATIO))
 
-    // renderer.shadowMap.enabled = true;
-    // renderer.shadowMap.type = PCFSoftShadowMap;
     this.canvas = canvas
     this.renderer = renderer
     this.allControls = []
 
     this.setupScenes(solutions, solutionCanvasses).then((scenes) => {
       this.scenes = scenes
-      if (mainSolution) {
-        this.scenes.push(this.createBuildScene(mainCanvas, mainSolution))
-      }
+
       this.render = this.render.bind(this)
       requestAnimationFrame(this.render)
     })
@@ -47,15 +37,17 @@ export class MultipleSceneRenderer {
     BrickFactory.loadExisting = true
 
     return solutions.map((solution, index) => {
+      console.log("solution:", solution)
       const domNode = solutionCanvasses[index]
+      console.log("domNode:", domNode)
       return this.createBuildScene(domNode, solution)
     })
   }
 
   createBuildScene(domNode, solution) {
-    const sceneInfo = this.makeScene(domNode, solution.content.bricks)
+    const sceneInfo = this.makeScene(domNode, solution.bricks)
 
-    solution.content.bricks.forEach((brick) => {
+    solution.bricks.forEach((brick) => {
       const functionName = `make${brick.id}`
       const { x, y, z } = brick.position
 
