@@ -9,16 +9,13 @@ import useBricksStore from "../store/bricks"
 import TipsOverlay from "./TipsOverlay"
 
 function Builder() {
-  console.log("rendering builder...")
   const [isShowingTips, setIsShowingTips] = useState(false)
   const navigate = useNavigate("/solutions")
 
   useEffect(() => {
-    console.log("use eff")
     const canvasDom = document.getElementById("builder")
-    console.log("canvasDom:", canvasDom)
 
-    const application = new Application(canvasDom, false)
+    new Application(canvasDom, false)
   }, [])
 
   function closeTips() {
@@ -31,13 +28,14 @@ function Builder() {
 
   async function submit() {
     const bricks = useBricksStore.getState().bricks
-    console.log("submit build", bricks)
     const data = {
       id: uuidv4(),
+      createdAt: Date.now(),
       meta: {
         // Random number between 40 and 180
         time: Math.floor(Math.random() * (180 - 40 + 1) + 40),
-        moves: 16,
+        // Random number between 8 and 32
+        moves: Math.floor(Math.random() * (32 - 8 + 1) + 8),
       },
       bricks,
     }
@@ -61,7 +59,6 @@ function Builder() {
         }`}
         id="builder"
       ></canvas>
-
       <div
         className={`absolute left-1/2 -translate-x-1/2 bottom-12 z-30 mx-auto flex duration-500 transition-all ${
           isShowingTips

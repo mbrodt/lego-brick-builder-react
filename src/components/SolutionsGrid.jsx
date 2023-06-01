@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { MultipleSceneRenderer } from "../builder/MultipleSceneRenderer"
 import SolutionsPagination from "./SolutionsPagination"
 
-const SOLUTIONS_PER_PAGE = 4
+const SOLUTIONS_PER_PAGE = 8
 
 function SolutionsGrid({ solutions }) {
   const [currentPage, setCurrentPage] = useState(1)
@@ -49,7 +49,7 @@ function SolutionsGrid({ solutions }) {
         {currentSolutions.map(({ id, meta, bricks }) => {
           return (
             <div className="w-full rounded-lg  aspect-square" key={id}>
-              {meta.time}
+              Time: {meta.time}, moves: {meta.moves}
               <div
                 id={id}
                 className="solution-canvas w-full aspect-square"

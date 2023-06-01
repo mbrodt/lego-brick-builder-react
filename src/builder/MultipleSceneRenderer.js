@@ -37,9 +37,7 @@ export class MultipleSceneRenderer {
     BrickFactory.loadExisting = true
 
     return solutions.map((solution, index) => {
-      console.log("solution:", solution)
       const domNode = solutionCanvasses[index]
-      console.log("domNode:", domNode)
       return this.createBuildScene(domNode, solution)
     })
   }

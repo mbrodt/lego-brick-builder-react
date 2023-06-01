@@ -7,11 +7,17 @@ import { BrowserRouter as Router, useRoutes } from "react-router-dom"
 
 import routes from "~react-pages"
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: Infinity,
+    },
+  },
+})
 
 const App = () => {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen overflow-hidden">
       <Suspense>{useRoutes(routes)}</Suspense>
     </div>
   )
