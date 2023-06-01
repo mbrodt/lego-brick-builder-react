@@ -15,9 +15,9 @@ function Solutions() {
   data.sort((a, b) => b.createdAt - a.createdAt)
 
   return (
-    <div className="w-full h-full bg-purple-light">
+    <div className="w-full h-full bg-purple-light text-white">
       <button
-        className="absolute btn top-8 right-8 z-30"
+        className="absolute btn top-8 right-8 z-50"
         onClick={() => setShowHighlights(!showHighlights)}
       >
         Toggle highlights

@@ -107,8 +107,8 @@ export class MultipleSceneRenderer {
     controls.minDistance = 5
     controls.maxDistance = 30
     controls.enablePan = false
-    controls.enableZoom = false
-    controls.enableRotate = false
+    controls.enableZoom = true
+    controls.enableRotate = true
     controls.autoRotate = true
     controls.autoRotateSpeed = 1
 

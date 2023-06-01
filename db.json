@@ -1865,6 +1865,5604 @@
           }
         }
       ]
+    },
+    {
+      "id": "e0313145-b00c-4220-9d52-c6198a03258f",
+      "createdAt": 1685624735643,
+      "meta": {
+        "time": 111,
+        "moves": 16
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "a235c51e-e75a-46fe-b3c2-90da73593d9d",
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "c8907e4c-70be-4b9e-9225-0c5ba2ca8f94",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "ca2482cf-1771-41a6-96cd-b8c21b5d5bea",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "a235c51e-e75a-46fe-b3c2-90da73593d9d",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4,
+                0,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c8907e4c-70be-4b9e-9225-0c5ba2ca8f94",
+              "material": "ca2482cf-1771-41a6-96cd-b8c21b5d5bea"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.839999973773956,
+              "y": -0.024000007659196854,
+              "z": -2.439999973773957
+            },
+            "max": {
+              "x": -3.1600000262260437,
+              "y": 0.984000027179718,
+              "z": -0.7600000262260436
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "b391b45e-9815-4124-b709-3ac6cc2fbe04",
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "ab02d7c3-37f4-4eaa-b174-58315a6a54b6",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "0993d963-fea0-4802-8157-52e02ef7ab75",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "b391b45e-9815-4124-b709-3ac6cc2fbe04",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ab02d7c3-37f4-4eaa-b174-58315a6a54b6",
+              "material": "0993d963-fea0-4802-8157-52e02ef7ab75"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.839999973773956,
+              "y": -0.024000007659196854,
+              "z": -0.8199999928474428
+            },
+            "max": {
+              "x": -3.1600000262260437,
+              "y": 0.984000027179718,
+              "z": 0.019999986514449307
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "7cfb4893-b413-47aa-ae48-664eed28ca92",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "f5db14ea-33ad-4760-877a-88ce9ab29be3",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "7cf4a5a1-b3f5-4dea-958a-f601f717c010",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "7cfb4893-b413-47aa-ae48-664eed28ca92",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "f5db14ea-33ad-4760-877a-88ce9ab29be3",
+              "material": "7cf4a5a1-b3f5-4dea-958a-f601f717c010"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "82fe11b3-01a0-476c-bc52-e8819cfec6a3",
+          "position": {
+            "x": -4,
+            "y": 0.9699999785423279,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "9dd0f05e-a410-466a-b1ac-342c30f1bade",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "1bea294f-49ab-4c52-9564-777684f24466",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "82fe11b3-01a0-476c-bc52-e8819cfec6a3",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4,
+                0.9699999785423279,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9dd0f05e-a410-466a-b1ac-342c30f1bade",
+              "material": "1bea294f-49ab-4c52-9564-777684f24466"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.839999973773956,
+              "y": 0.945999970883131,
+              "z": -1.6399999737739566
+            },
+            "max": {
+              "x": -3.1600000262260437,
+              "y": 1.954000005722046,
+              "z": 0.039999973773956476
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "3fa58487-c371-4613-a3f0-8285b23ce0cf",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "5abf6eaa-2af5-49ff-8d96-7552b0d7f975",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "0e7b2dd8-e846-467a-89f2-54c7fb7cfcc0",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "3fa58487-c371-4613-a3f0-8285b23ce0cf",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "5abf6eaa-2af5-49ff-8d96-7552b0d7f975",
+              "material": "0e7b2dd8-e846-467a-89f2-54c7fb7cfcc0"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.007919996045529842,
+              "z": -1.6599999666213991
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.32471999526023865,
+              "z": 0.860000014305115
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "ca37d1b0-7606-478f-b101-09a7ce5341cf",
+          "position": {
+            "x": -4,
+            "y": 1.9399999570846558,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "7890d307-f3da-4f50-8ce2-cc510a789b04",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "24865d12-6b52-46da-bab3-8415c2873a2e",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "ca37d1b0-7606-478f-b101-09a7ce5341cf",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4,
+                1.9399999570846558,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "7890d307-f3da-4f50-8ce2-cc510a789b04",
+              "material": "24865d12-6b52-46da-bab3-8415c2873a2e"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.839999973773956,
+              "y": 1.932079961039126,
+              "z": -2.459999966621399
+            },
+            "max": {
+              "x": -3.1600000262260433,
+              "y": 2.2647199523448944,
+              "z": 0.060000014305114924
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "80c398c1-727b-4582-bfe5-affb12c52c19",
+      "createdAt": 1685624784933,
+      "meta": {
+        "time": 147,
+        "moves": 27
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "751c750d-47b7-4263-9440-2d245e560d68",
+          "position": {
+            "x": -0.8,
+            "y": 0.32679999828338624,
+            "z": -2.4000000000000004
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "73eb2def-119e-4860-a34e-f8fdad6230ca",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "56b3eda1-1908-470d-bd04-94d3b094a586",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "751c750d-47b7-4263-9440-2d245e560d68",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -0.8,
+                0.32679999828338624,
+                -2.4000000000000004,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "73eb2def-119e-4860-a34e-f8fdad6230ca",
+              "material": "56b3eda1-1908-470d-bd04-94d3b094a586"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -1.6399999737739566,
+              "y": 0.3027999906241894,
+              "z": -3.2399999737739567
+            },
+            "max": {
+              "x": 0.039999973773956476,
+              "y": 1.3108000254631043,
+              "z": -1.5600000262260438
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "f4e4f108-d6e9-46e0-ae19-4e3f4d6042f8",
+          "position": {
+            "x": -0.8,
+            "y": 2.266799955368042,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 6.283185307179586,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "edd05f67-c6cd-484d-b534-f2717ee41203",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "349e0984-548b-46ad-9f61-dad97b65a3c9",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "f4e4f108-d6e9-46e0-ae19-4e3f4d6042f8",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                1,
+                0,
+                2.4492935982947064e-16,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -2.4492935982947064e-16,
+                0,
+                1,
+                0,
+                -0.8,
+                2.266799955368042,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "edd05f67-c6cd-484d-b534-f2717ee41203",
+              "material": "349e0984-548b-46ad-9f61-dad97b65a3c9"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8199999865144494,
+              "y": 2.242799947708845,
+              "z": -2.4399999737739564
+            },
+            "max": {
+              "x": 0.019999992847442805,
+              "y": 3.25079998254776,
+              "z": -0.7600000262260436
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "7c05c666-fe92-4903-ae13-d192c5e279f2",
+          "position": {
+            "x": 0.8,
+            "y": 1.2967999768257141,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 3.141592653589793,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "b2d2cab2-ce78-43fe-9c4b-4fc24cb6121a",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "6925e424-adf4-48da-bc24-7fc062e6112b",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "7c05c666-fe92-4903-ae13-d192c5e279f2",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                -1,
+                0,
+                -1.2246467991473532e-16,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.2246467991473532e-16,
+                0,
+                -1,
+                0,
+                0.8,
+                1.2967999768257141,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "b2d2cab2-ce78-43fe-9c4b-4fc24cb6121a",
+              "material": "6925e424-adf4-48da-bc24-7fc062e6112b"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8599999666213989,
+              "y": 1.2727999691665173,
+              "z": -2.439999973773957
+            },
+            "max": {
+              "x": 1.660000014305115,
+              "y": 2.280800004005432,
+              "z": -0.7600000262260437
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "f0391e4a-95d9-48ca-81ea-fba198d06c27",
+          "position": {
+            "x": -0.8,
+            "y": 0.32679999828338624,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "2e0a0235-227f-40aa-8b12-aef93114974b",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "15644d68-399b-47a2-8cef-722c00413a0e",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "f0391e4a-95d9-48ca-81ea-fba198d06c27",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -0.8,
+                0.32679999828338624,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "2e0a0235-227f-40aa-8b12-aef93114974b",
+              "material": "15644d68-399b-47a2-8cef-722c00413a0e"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -1.6399999737739566,
+              "y": 0.3027999906241894,
+              "z": -1.6399999737739566
+            },
+            "max": {
+              "x": 0.039999973773956476,
+              "y": 1.3108000254631043,
+              "z": 0.039999973773956476
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "611916dd-cb78-4aca-aa83-e3a240aace48",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -3.2
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 3.141592653589793,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "78034f8d-2843-4481-a374-121dda3b6171",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "402c9619-d4b4-4f87-aee6-f5a96d2ddf98",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "611916dd-cb78-4aca-aa83-e3a240aace48",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                -1,
+                0,
+                -1.2246467991473532e-16,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.2246467991473532e-16,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                -3.2,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "78034f8d-2843-4481-a374-121dda3b6171",
+              "material": "402c9619-d4b4-4f87-aee6-f5a96d2ddf98"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -1.659999966621399,
+              "y": -0.007919996045529842,
+              "z": -4.0399999737739565
+            },
+            "max": {
+              "x": 0.8600000143051149,
+              "y": 0.32471999526023865,
+              "z": -2.360000026226044
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "cd436cda-ff86-46b2-b3c3-caf2c0e44a20",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 3.141592653589793,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "59640c5f-01eb-4bad-8fc0-cad51f7bfae8",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "f1116661-82b4-41dc-b815-44015c1b6173",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "cd436cda-ff86-46b2-b3c3-caf2c0e44a20",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                -1,
+                0,
+                -1.2246467991473532e-16,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.2246467991473532e-16,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "59640c5f-01eb-4bad-8fc0-cad51f7bfae8",
+              "material": "f1116661-82b4-41dc-b815-44015c1b6173"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -1.659999966621399,
+              "y": -0.007919996045529842,
+              "z": -0.8399999737739565
+            },
+            "max": {
+              "x": 0.8600000143051149,
+              "y": 0.32471999526023865,
+              "z": 0.8399999737739564
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "efc29881-9c71-4394-af2a-355f75956398",
+      "createdAt": 1685624812922,
+      "meta": {
+        "time": 108,
+        "moves": 13
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "dc470f81-eb98-4afa-a09e-9b0ba0d2d2a1",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "6f2d6a14-33bd-43e2-a775-9f621b9bff0d",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "758c5482-fee1-4a27-89b2-d8c017c3b26c",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "dc470f81-eb98-4afa-a09e-9b0ba0d2d2a1",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "6f2d6a14-33bd-43e2-a775-9f621b9bff0d",
+              "material": "758c5482-fee1-4a27-89b2-d8c017c3b26c"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": -4.039999973773957
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": -2.360000026226044
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "bd47d52b-7f9f-431f-b482-ac6ef9ff418d",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "4089049e-a0e2-4c11-a16b-6f7ec845468b",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "93009c7b-6875-4ce2-af92-8ae1b82d10df",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "bd47d52b-7f9f-431f-b482-ac6ef9ff418d",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4089049e-a0e2-4c11-a16b-6f7ec845468b",
+              "material": "93009c7b-6875-4ce2-af92-8ae1b82d10df"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": 2.3800000071525567
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": 3.2199999865144484
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "fa852991-354a-4129-a5bd-3d0a3081e1bb",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "c6150254-7e93-49b1-96c0-1cceb98d42a2",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "e309bdc2-572a-4bf3-b881-74ed8964d15a",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "fa852991-354a-4129-a5bd-3d0a3081e1bb",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c6150254-7e93-49b1-96c0-1cceb98d42a2",
+              "material": "e309bdc2-572a-4bf3-b881-74ed8964d15a"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "2a1e022c-80a9-439f-abb8-f385671b24ae",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "efbca8ea-9ad5-42e3-8660-c44ab349a773",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "de59292c-b679-40bd-8f35-a1565e6422c4",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "2a1e022c-80a9-439f-abb8-f385671b24ae",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "efbca8ea-9ad5-42e3-8660-c44ab349a773",
+              "material": "de59292c-b679-40bd-8f35-a1565e6422c4"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": 2.360000026226043
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 0.984000027179718,
+              "z": 4.039999973773956
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "57d28233-7647-4621-9d5d-56bd6513252e",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "abf01b2c-394d-423e-850d-46b14b4629a9",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "88a22661-f0c0-41c9-bd7e-49f760e3888e",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "57d28233-7647-4621-9d5d-56bd6513252e",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "abf01b2c-394d-423e-850d-46b14b4629a9",
+              "material": "88a22661-f0c0-41c9-bd7e-49f760e3888e"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8399999737739565,
+              "y": -0.007919996045529842,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": 0.8399999737739566,
+              "y": 0.32471999526023865,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "26aaae55-d707-42b2-9b77-bf2aee87c56f",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "c586b612-252c-4ebb-88bf-b44dfb674e0b",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "a4396364-fc4f-45bc-a508-7acb98871bbb",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "26aaae55-d707-42b2-9b77-bf2aee87c56f",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c586b612-252c-4ebb-88bf-b44dfb674e0b",
+              "material": "a4396364-fc4f-45bc-a508-7acb98871bbb"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8399999737739565,
+              "y": -0.007919996045529842,
+              "z": 1.5400000333786001
+            },
+            "max": {
+              "x": 0.8399999737739566,
+              "y": 0.32471999526023865,
+              "z": 4.060000014305114
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7bedb38-2295-4d95-98f7-b02f278e539c",
+      "createdAt": 1685625084151,
+      "meta": {
+        "time": 174,
+        "moves": 11
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "3fd68f40-442e-479b-91af-e433dbe7d645",
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": -2.4000000000000004
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "43baab0a-aca7-4ded-bc7a-4999195ddef9",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "8134827b-7472-4e54-aa5c-c61afec68d31",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "3fd68f40-442e-479b-91af-e433dbe7d645",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4,
+                0,
+                -2.4000000000000004,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "43baab0a-aca7-4ded-bc7a-4999195ddef9",
+              "material": "8134827b-7472-4e54-aa5c-c61afec68d31"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.839999973773956,
+              "y": -0.024000007659196854,
+              "z": -3.2399999737739567
+            },
+            "max": {
+              "x": -3.1600000262260437,
+              "y": 0.984000027179718,
+              "z": -1.5600000262260438
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "302ab454-a5a3-4f33-94d6-060d13e38bb4",
+          "position": {
+            "x": -4,
+            "y": 0,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "c8619906-97f8-408b-a92e-dbf88e8921b4",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "cf037b05-a214-44f1-ae65-192326aeeac1",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "302ab454-a5a3-4f33-94d6-060d13e38bb4",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4,
+                0,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c8619906-97f8-408b-a92e-dbf88e8921b4",
+              "material": "cf037b05-a214-44f1-ae65-192326aeeac1"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.839999973773956,
+              "y": -0.024000007659196854,
+              "z": -1.619999992847443
+            },
+            "max": {
+              "x": -3.1600000262260437,
+              "y": 0.984000027179718,
+              "z": -0.7800000134855507
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "93d23548-f61c-4d3a-b860-954e2c8c7b62",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "d8730a78-26af-419c-98cf-14083bb1d409",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "faa19d31-d0ce-4068-b341-c1e3f8056477",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "93d23548-f61c-4d3a-b860-954e2c8c7b62",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "d8730a78-26af-419c-98cf-14083bb1d409",
+              "material": "faa19d31-d0ce-4068-b341-c1e3f8056477"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -3.2599999666213995
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -0.7399999856948851
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "35376d17-a2f8-4b77-8465-d5a2e4c64aa7",
+          "position": {
+            "x": -1.6,
+            "y": 0.32679999828338624,
+            "z": 8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "40512ea3-aaf7-4e17-8ffa-54bc357fd131",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "235278b5-974d-4bab-b9fc-526251bb2461",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "35376d17-a2f8-4b77-8465-d5a2e4c64aa7",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -1.6,
+                0.32679999828338624,
+                8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "40512ea3-aaf7-4e17-8ffa-54bc357fd131",
+              "material": "235278b5-974d-4bab-b9fc-526251bb2461"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -2.439999973773957,
+              "y": 0.3027999906241894,
+              "z": 7.160000026226044
+            },
+            "max": {
+              "x": -0.7600000262260436,
+              "y": 1.3108000254631043,
+              "z": 8.839999973773956
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "6dbd64bc-7094-4649-a369-002481be462d",
+          "position": {
+            "x": -3.2,
+            "y": 0.9699999785423279,
+            "z": -2.4000000000000004
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 3.141592653589793,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "222d4e37-437f-48bf-9c7a-34c6685154cd",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "7fe861cd-ed15-44e2-868f-048c899ed82a",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "6dbd64bc-7094-4649-a369-002481be462d",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                -1,
+                0,
+                -1.2246467991473532e-16,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.2246467991473532e-16,
+                0,
+                -1,
+                0,
+                -3.2,
+                0.9699999785423279,
+                -2.4000000000000004,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "222d4e37-437f-48bf-9c7a-34c6685154cd",
+              "material": "7fe861cd-ed15-44e2-868f-048c899ed82a"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.859999966621399,
+              "y": 0.962079982496798,
+              "z": -3.2399999737739567
+            },
+            "max": {
+              "x": -2.3399999856948854,
+              "y": 1.2947199738025665,
+              "z": -1.560000026226044
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "7ab9b3a8-3c12-46fe-8f9e-653131cc81d7",
+          "position": {
+            "x": -1.6,
+            "y": 0,
+            "z": 9.600000000000001
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "0a7ad749-a83c-4246-a3be-e45da7002e48",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "9edc04c9-d148-4a2c-a53b-1e17c0548c5b",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "7ab9b3a8-3c12-46fe-8f9e-653131cc81d7",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -1.6,
+                0,
+                9.600000000000001,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "0a7ad749-a83c-4246-a3be-e45da7002e48",
+              "material": "9edc04c9-d148-4a2c-a53b-1e17c0548c5b"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -2.439999973773957,
+              "y": -0.007919996045529842,
+              "z": 7.9400000333786025
+            },
+            "max": {
+              "x": -0.7600000262260435,
+              "y": 0.32471999526023865,
+              "z": 10.460000014305116
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "3324c013-fea2-4e91-a056-af59ef63ad59",
+      "createdAt": 1685625092387,
+      "meta": {
+        "time": 105,
+        "moves": 17
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "97311293-c1de-4b4f-8369-6f3d428ab853",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0.9699999785423279,
+            "z": 0
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "08d4d0f7-cc9e-4c3d-92f4-6be3c3e65dbc",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "f3bbee65-0fe4-44dc-8bad-fe5f5d02bbac",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "97311293-c1de-4b4f-8369-6f3d428ab853",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0.9699999785423279,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "08d4d0f7-cc9e-4c3d-92f4-6be3c3e65dbc",
+              "material": "f3bbee65-0fe4-44dc-8bad-fe5f5d02bbac"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 0.945999970883131,
+              "z": -0.8399999737739565
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 1.954000005722046,
+              "z": 0.8399999737739565
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "71bc0b51-45ad-4ab9-a76a-669c03a69124",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 1.2967999768257141,
+            "z": -2.4000000000000004
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "769b5f37-e43e-4845-a140-a22259ea504b",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "4223fdb4-9182-4063-b614-5b8cde6d5300",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "71bc0b51-45ad-4ab9-a76a-669c03a69124",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                1.2967999768257141,
+                -2.4000000000000004,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "769b5f37-e43e-4845-a140-a22259ea504b",
+              "material": "4223fdb4-9182-4063-b614-5b8cde6d5300"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 1.2727999691665173,
+              "z": -3.219999992847443
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 2.280800004005432,
+              "z": -2.3800000134855512
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "e8014833-a692-4c72-95b5-01ea99eb5155",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "ce9bbeec-58bc-419f-8bc1-79d5b1c86312",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "98cef48b-cc03-4451-9b4b-5054b5961b5f",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "e8014833-a692-4c72-95b5-01ea99eb5155",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ce9bbeec-58bc-419f-8bc1-79d5b1c86312",
+              "material": "98cef48b-cc03-4451-9b4b-5054b5961b5f"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -3.2599999666213995
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -0.7399999856948851
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "0f34528b-4bb6-4237-95b6-0af78575d502",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "0b101fb9-28fb-4035-b31f-0e1572198399",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "0615b7f9-69d8-4a35-9588-9ba714798118",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "0f34528b-4bb6-4237-95b6-0af78575d502",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "0b101fb9-28fb-4035-b31f-0e1572198399",
+              "material": "0615b7f9-69d8-4a35-9588-9ba714798118"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -0.8399999737739565
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 0.984000027179718,
+              "z": 0.8399999737739565
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "ef824e42-a5dd-47c8-89ae-72cf2adf6e92",
+          "position": {
+            "x": -3.2,
+            "y": 0.9699999785423279,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "bbc16cf3-e860-4fbe-809c-716d157bdf58",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "db494eb7-1a6e-4290-a6c0-131479571939",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "ef824e42-a5dd-47c8-89ae-72cf2adf6e92",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -3.2,
+                0.9699999785423279,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "bbc16cf3-e860-4fbe-809c-716d157bdf58",
+              "material": "db494eb7-1a6e-4290-a6c0-131479571939"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -4.0399999737739565,
+              "y": 0.962079982496798,
+              "z": -3.2599999666213995
+            },
+            "max": {
+              "x": -2.3600000262260434,
+              "y": 1.2947199738025665,
+              "z": -0.7399999856948851
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "8188646b-84fa-408f-9e34-0acb87713580",
+          "position": {
+            "x": -1.6,
+            "y": 0.9699999785423279,
+            "z": -1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "1c7d9c60-5e59-481a-ac67-848c5f80c4a6",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "3d4e40e2-8233-40b2-974a-423bb744a3d5",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "8188646b-84fa-408f-9e34-0acb87713580",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -1.6,
+                0.9699999785423279,
+                -1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "1c7d9c60-5e59-481a-ac67-848c5f80c4a6",
+              "material": "3d4e40e2-8233-40b2-974a-423bb744a3d5"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -2.439999973773957,
+              "y": 0.962079982496798,
+              "z": -3.2599999666213995
+            },
+            "max": {
+              "x": -0.7600000262260435,
+              "y": 1.2947199738025665,
+              "z": -0.7399999856948851
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "96e8c5ea-263c-4818-a283-44c84c7b82bc",
+      "createdAt": 1685626463001,
+      "meta": {
+        "time": 40,
+        "moves": 23
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "8eb16369-49f8-4581-9d0b-3206b961765b",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "84868719-638d-45bc-8d55-4762242a1fcc",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "db967749-9340-4581-8f85-614fb45f9f14",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "8eb16369-49f8-4581-9d0b-3206b961765b",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "84868719-638d-45bc-8d55-4762242a1fcc",
+              "material": "db967749-9340-4581-8f85-614fb45f9f14"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": -4.039999973773957
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": -2.360000026226044
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "43b70684-3688-4053-8912-d3d2c058e7e1",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "133090e2-4fdb-41d6-bc43-c1eae057d6cc",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "b689ab67-8f9f-42c1-ba4d-747b5228b593",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "43b70684-3688-4053-8912-d3d2c058e7e1",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "133090e2-4fdb-41d6-bc43-c1eae057d6cc",
+              "material": "b689ab67-8f9f-42c1-ba4d-747b5228b593"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": 2.3800000071525567
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": 3.2199999865144484
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "09635a11-7dbf-4d94-9681-aa4e5ceaa8f4",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "18de9cd9-ae8f-4204-a4e4-1baf23478f3a",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "acb862bb-e1a0-4838-b79e-95dfdbdb8a0a",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "09635a11-7dbf-4d94-9681-aa4e5ceaa8f4",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "18de9cd9-ae8f-4204-a4e4-1baf23478f3a",
+              "material": "acb862bb-e1a0-4838-b79e-95dfdbdb8a0a"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "ebd1b01f-4f34-4ee6-a64b-e02acbd080aa",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "a11e0937-a11a-40b2-bc61-c23bb176add1",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "861ce86e-258b-4b93-9c04-18b3e789cfd4",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "ebd1b01f-4f34-4ee6-a64b-e02acbd080aa",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "a11e0937-a11a-40b2-bc61-c23bb176add1",
+              "material": "861ce86e-258b-4b93-9c04-18b3e789cfd4"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": 2.360000026226043
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 0.984000027179718,
+              "z": 4.039999973773956
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "011a27f7-b798-44aa-8aff-ec98972514fe",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "4429251b-8204-43c7-930c-6ef66122b401",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "b87b2edb-c2bc-406a-abcb-9d24a6c3df9d",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "011a27f7-b798-44aa-8aff-ec98972514fe",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4429251b-8204-43c7-930c-6ef66122b401",
+              "material": "b87b2edb-c2bc-406a-abcb-9d24a6c3df9d"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8399999737739565,
+              "y": -0.007919996045529842,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": 0.8399999737739566,
+              "y": 0.32471999526023865,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "e58c6ceb-741c-403c-b1b6-06cedc18049c",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "30e16843-329b-49b1-8d9d-697552940ded",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "0b99d891-fee7-4906-8eca-b0b0bbf5e26b",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "e58c6ceb-741c-403c-b1b6-06cedc18049c",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "30e16843-329b-49b1-8d9d-697552940ded",
+              "material": "0b99d891-fee7-4906-8eca-b0b0bbf5e26b"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8399999737739565,
+              "y": -0.007919996045529842,
+              "z": 1.5400000333786001
+            },
+            "max": {
+              "x": 0.8399999737739566,
+              "y": 0.32471999526023865,
+              "z": 4.060000014305114
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1ee67c39-6e7e-4593-912e-80961c70c521",
+      "createdAt": 1685626621192,
+      "meta": {
+        "time": 46,
+        "moves": 28
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "aeeb29e5-449e-4789-bc94-d052e765d428",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0.32679999828338624,
+            "z": 0
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "4fe7d39c-0295-4243-859b-1a7ce20c8c4e",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "6019e82b-f246-4405-888a-b96a6374475e",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "aeeb29e5-449e-4789-bc94-d052e765d428",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0.32679999828338624,
+                0,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "4fe7d39c-0295-4243-859b-1a7ce20c8c4e",
+              "material": "6019e82b-f246-4405-888a-b96a6374475e"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 0.3027999906241894,
+              "z": -0.8399999737739565
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 1.3108000254631043,
+              "z": 0.8399999737739565
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "f7a41e47-cee4-4b1b-ba04-ed61e0e0350a",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0.3268000090122227,
+            "z": 1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "d4508384-9a00-4f0e-95cb-e6006aeae83b",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "410753d1-846a-42ad-aaf8-c32985fc25c7",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "f7a41e47-cee4-4b1b-ba04-ed61e0e0350a",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0.3268000090122227,
+                1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "d4508384-9a00-4f0e-95cb-e6006aeae83b",
+              "material": "410753d1-846a-42ad-aaf8-c32985fc25c7"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 0.30280000135302587,
+              "z": 0.7800000071525572
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 1.3108000361919407,
+              "z": 1.6199999865144494
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "82314617-d424-4435-b3a1-61f83923ca51",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "7c146cf2-4e50-46bd-a255-739ed7da0f48",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "7af05362-3dce-4a62-883b-a6a45d117868",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "82314617-d424-4435-b3a1-61f83923ca51",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "7c146cf2-4e50-46bd-a255-739ed7da0f48",
+              "material": "7af05362-3dce-4a62-883b-a6a45d117868"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "b92b5f00-b056-4eab-b356-e6b20c9cc51f",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "ac78ec37-1a69-43f5-9a1d-d92f52bc6af3",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "d992c692-1edb-46da-8d50-e22e7525344f",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "b92b5f00-b056-4eab-b356-e6b20c9cc51f",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ac78ec37-1a69-43f5-9a1d-d92f52bc6af3",
+              "material": "d992c692-1edb-46da-8d50-e22e7525344f"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": 2.360000026226043
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 0.984000027179718,
+              "z": 4.039999973773956
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "1e396036-e1ee-4cd3-8901-a0600d4f9d35",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "3e9de113-aa07-4d81-bd9f-522c70884a95",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "d1d2d853-a390-471f-8df9-bbcb263b1547",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "1e396036-e1ee-4cd3-8901-a0600d4f9d35",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "3e9de113-aa07-4d81-bd9f-522c70884a95",
+              "material": "d1d2d853-a390-471f-8df9-bbcb263b1547"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.007919996045529842,
+              "z": -2.459999966621399
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.32471999526023865,
+              "z": 0.060000014305114924
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "47476436-eb4f-4a82-bc9b-876adb3f6a05",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "9ed1401c-9d2c-40a3-975e-0bd46c9af141",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "3637aa0e-a8b8-4d5f-a77c-592217e517f1",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "47476436-eb4f-4a82-bc9b-876adb3f6a05",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "9ed1401c-9d2c-40a3-975e-0bd46c9af141",
+              "material": "3637aa0e-a8b8-4d5f-a77c-592217e517f1"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.007919996045529842,
+              "z": -0.05999996662139906
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.32471999526023865,
+              "z": 2.4600000143051153
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "713d911f-2ca7-468c-8066-9f6475b64240",
+      "createdAt": 1685626729674,
+      "meta": {
+        "time": 112,
+        "moves": 12
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "959fcb3d-1ce7-450c-94ee-925b7206136e",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "dbe05d07-ca50-490f-83ac-b949f2136abf",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "01b3a66c-9105-4976-bae4-9007396c756d",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "959fcb3d-1ce7-450c-94ee-925b7206136e",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "dbe05d07-ca50-490f-83ac-b949f2136abf",
+              "material": "01b3a66c-9105-4976-bae4-9007396c756d"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": -4.039999973773957
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": -2.360000026226044
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "bf38659a-8487-42ee-a71c-4007e5f97f1b",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "cfda852f-06a9-451e-ba6c-784cc84f1ab6",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "916e51cd-de96-475d-8a6a-e2f5343877b2",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "bf38659a-8487-42ee-a71c-4007e5f97f1b",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "cfda852f-06a9-451e-ba6c-784cc84f1ab6",
+              "material": "916e51cd-de96-475d-8a6a-e2f5343877b2"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": 2.3800000071525567
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": 3.2199999865144484
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "c6759500-03ca-438f-98ae-3ba324b59ebe",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "c32f741d-dd03-460d-bd40-9e6edc5f518d",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "d7bbb8fa-8b5b-4b0f-afab-2302e66bc9fe",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "c6759500-03ca-438f-98ae-3ba324b59ebe",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "c32f741d-dd03-460d-bd40-9e6edc5f518d",
+              "material": "d7bbb8fa-8b5b-4b0f-afab-2302e66bc9fe"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "71dcd66e-c4a8-4116-a176-94084ecd5fb9",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "add854ae-e00e-4ceb-9112-a24d796f771a",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "e8e58138-e350-479c-91ee-c9cccbf2bd35",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "71dcd66e-c4a8-4116-a176-94084ecd5fb9",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "add854ae-e00e-4ceb-9112-a24d796f771a",
+              "material": "e8e58138-e350-479c-91ee-c9cccbf2bd35"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": 2.360000026226043
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 0.984000027179718,
+              "z": 4.039999973773956
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "af734158-2505-483a-a8d4-fb36d0589964",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -3.2000000000000006
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "013ccc4f-978c-4eb0-9ef1-0a7060e661f0",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "7594ede8-9178-4ff3-8c7f-aafd79236cb3",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "af734158-2505-483a-a8d4-fb36d0589964",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                -3.2000000000000006,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "013ccc4f-978c-4eb0-9ef1-0a7060e661f0",
+              "material": "7594ede8-9178-4ff3-8c7f-aafd79236cb3"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8399999737739565,
+              "y": -0.007919996045529842,
+              "z": -4.8599999666214
+            },
+            "max": {
+              "x": 0.8399999737739566,
+              "y": 0.32471999526023865,
+              "z": -2.3399999856948854
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "8c812692-474d-4e65-a86c-e2a336cdfa5d",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "f7f8e684-04d6-4777-a74f-eb0047d2a754",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "dcd929bf-e9fb-40f3-85a8-780e180e43f1",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "8c812692-474d-4e65-a86c-e2a336cdfa5d",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                0,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "f7f8e684-04d6-4777-a74f-eb0047d2a754",
+              "material": "dcd929bf-e9fb-40f3-85a8-780e180e43f1"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8399999737739565,
+              "y": -0.007919996045529842,
+              "z": 1.5400000333786001
+            },
+            "max": {
+              "x": 0.8399999737739566,
+              "y": 0.32471999526023865,
+              "z": 4.060000014305114
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "418d8ba9-a3b6-4a2d-8b3e-45e18c12b944",
+      "createdAt": 1685627329815,
+      "meta": {
+        "time": 168,
+        "moves": 16
+      },
+      "bricks": [
+        {
+          "id": 3003,
+          "color": "#58ab41",
+          "uuid": "9df289d4-880b-4489-aed1-75aa192f37ae",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0.9699999785423279,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "dc952710-f7eb-429d-9f13-1e020c728299",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "ff787b0c-8806-4eff-b86e-d68f0320d071",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "9df289d4-880b-4489-aed1-75aa192f37ae",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0.9699999785423279,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "dc952710-f7eb-429d-9f13-1e020c728299",
+              "material": "ff787b0c-8806-4eff-b86e-d68f0320d071"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 0.945999970883131,
+              "z": -1.6399999737739566
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 1.954000005722046,
+              "z": 0.039999973773956476
+            }
+          }
+        },
+        {
+          "id": 3004,
+          "color": "#58ab41",
+          "uuid": "5d461caa-28f1-4b4a-abf9-c9352973b6ea",
+          "position": {
+            "x": -4.800000000000001,
+            "y": 0,
+            "z": 3.1999999999999993
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "ab86a0af-73f8-4389-ae83-77f117025574",
+                "type": "BoxGeometry",
+                "width": 0.7999200000000001,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "60a038bb-5f8c-4120-bc62-4ce5b3cfad1c",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "5d461caa-28f1-4b4a-abf9-c9352973b6ea",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -4.800000000000001,
+                0,
+                3.1999999999999993,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "ab86a0af-73f8-4389-ae83-77f117025574",
+              "material": "60a038bb-5f8c-4120-bc62-4ce5b3cfad1c"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -5.639999973773957,
+              "y": -0.024000007659196854,
+              "z": 2.3800000071525567
+            },
+            "max": {
+              "x": -3.9600000262260444,
+              "y": 0.984000027179718,
+              "z": 3.2199999865144484
+            }
+          }
+        },
+        {
+          "id": 3002,
+          "color": "#00852b",
+          "uuid": "1b30bce2-6541-4e9b-9c4c-bf1732b7e815",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": -0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "93ae2e14-c587-47af-bacf-0826854cacca",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "de7fc586-d76a-40dd-bda8-5f050167da58",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "1b30bce2-6541-4e9b-9c4c-bf1732b7e815",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                -0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "93ae2e14-c587-47af-bacf-0826854cacca",
+              "material": "de7fc586-d76a-40dd-bda8-5f050167da58"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -2.459999966621399
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 0.984000027179718,
+              "z": 0.060000014305114924
+            }
+          }
+        },
+        {
+          "id": 3003,
+          "color": "#00852b",
+          "uuid": "cd247dc7-9916-406c-924a-35c270287b96",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0,
+            "z": 0.8
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "e8b2d2aa-0803-4335-b181-c84727595fe6",
+                "type": "BoxGeometry",
+                "width": 1.5998400000000002,
+                "height": 0.96,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "03d15ab2-5123-434b-b974-c7c52b097e1b",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "cd247dc7-9916-406c-924a-35c270287b96",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0,
+                0.8,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "e8b2d2aa-0803-4335-b181-c84727595fe6",
+              "material": "03d15ab2-5123-434b-b974-c7c52b097e1b"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": -0.024000007659196854,
+              "z": -0.039999973773956476
+            },
+            "max": {
+              "x": -1.5600000262260438,
+              "y": 0.984000027179718,
+              "z": 1.6399999737739566
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "e27ce583-fc0e-4fe8-919b-1be25e93d7a5",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0.9699999785423279,
+            "z": -2.4000000000000004
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "a9d9dcc4-629d-43da-b1e1-6fe74fb6f615",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "a3900307-4dcc-4475-97cf-1cbec8a6d9af",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "e27ce583-fc0e-4fe8-919b-1be25e93d7a5",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0.9699999785423279,
+                -2.4000000000000004,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "a9d9dcc4-629d-43da-b1e1-6fe74fb6f615",
+              "material": "a3900307-4dcc-4475-97cf-1cbec8a6d9af"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 0.962079982496798,
+              "z": -4.059999966621399
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 1.2947199738025665,
+              "z": -1.5399999856948854
+            }
+          }
+        },
+        {
+          "id": 3021,
+          "color": "#00451a",
+          "uuid": "d5d6b79a-ba79-4c82-9bcd-0df6b1880b2c",
+          "position": {
+            "x": -2.4000000000000004,
+            "y": 0.9699999785423279,
+            "z": 1.6
+          },
+          "rotation": {
+            "isEuler": true,
+            "_x": 0,
+            "_y": 1.5707963267948966,
+            "_z": 0,
+            "_order": "XYZ"
+          },
+          "texture": null,
+          "mesh": {
+            "metadata": {
+              "version": 4.5,
+              "type": "Object",
+              "generator": "Object3D.toJSON"
+            },
+            "geometries": [
+              {
+                "uuid": "11df8683-d624-4b1c-9759-9b34d91569c5",
+                "type": "BoxGeometry",
+                "width": 2.39976,
+                "height": 0.3168,
+                "depth": 1.5998400000000002,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              }
+            ],
+            "materials": [
+              {
+                "uuid": "ccd96a0d-5811-4aaf-b906-28ff481f4ff4",
+                "type": "MeshBasicMaterial",
+                "color": 16777215,
+                "reflectivity": 1,
+                "refractionRatio": 0.98,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680
+              }
+            ],
+            "object": {
+              "uuid": "d5d6b79a-ba79-4c82-9bcd-0df6b1880b2c",
+              "type": "Mesh",
+              "visible": false,
+              "layers": 1,
+              "matrix": [
+                2.220446049250313e-16,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                2.220446049250313e-16,
+                0,
+                -2.4000000000000004,
+                0.9699999785423279,
+                1.6,
+                1
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "geometry": "11df8683-d624-4b1c-9759-9b34d91569c5",
+              "material": "ccd96a0d-5811-4aaf-b906-28ff481f4ff4"
+            }
+          },
+          "completionBoundingBox": {
+            "isBox3": true,
+            "min": {
+              "x": -3.2399999737739567,
+              "y": 0.962079982496798,
+              "z": -0.05999996662139906
+            },
+            "max": {
+              "x": -1.5600000262260436,
+              "y": 1.2947199738025665,
+              "z": 2.4600000143051153
+            }
+          }
+        }
+      ]
     }
   ]
 }
