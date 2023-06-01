@@ -21,7 +21,7 @@ export class SolutionScene extends Scene {
   }
   makeSceneProps() {
     this.unit = 1
-    this.background = new Color(mainBuilderColor)
+    // this.background = new Color(mainBuilderColor)
   }
   makeFog() {
     const near = 30

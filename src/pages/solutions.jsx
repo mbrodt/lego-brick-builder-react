@@ -11,8 +11,11 @@ function Solutions() {
 
   if (isLoading) return
 
+  // Sort the data by createdAt, which is a unix timestamp, to get the newest solutions first
+  data.sort((a, b) => b.createdAt - a.createdAt)
+
   return (
-    <div className="w-full h-full bg-purple">
+    <div className="w-full h-full bg-purple-light">
       <button
         className="absolute btn top-8 right-8 z-30"
         onClick={() => setShowHighlights(!showHighlights)}
