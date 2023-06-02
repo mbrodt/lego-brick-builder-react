@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import HighlightBadge from "./HighlightBadge"
-
 function FewestMovesSolutions({ solutions, initSolutionScenes }) {
   const [fewestMoves, setFewestMoves] = useState([])
 

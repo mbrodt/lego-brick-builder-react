@@ -2,11 +2,15 @@ import { useState } from "react"
 import SolutionsGrid from "../components/SolutionsGrid"
 import { useQuery } from "react-query"
 import SolutionsHighlight from "../components/SolutionsHighlight"
+import { motion } from "framer-motion"
+import ToggleHighlights from "../components/ToggleHighlights"
 
 function Solutions() {
   const [showHighlights, setShowHighlights] = useState(false)
   const { isLoading, data } = useQuery("solutions", () => {
-    return fetch("http://localhost:3000/solutions").then((res) => res.json())
+    return fetch("https://solution-store.onrender.com/solutions").then((res) =>
+      res.json()
+    )
   })
 
   if (isLoading) return
@@ -16,18 +20,30 @@ function Solutions() {
 
   return (
     <div className="w-full h-full bg-purple-light text-white">
-      <button
-        className="absolute btn top-8 right-8 z-50"
-        onClick={() => setShowHighlights(!showHighlights)}
+      <motion.div
+        className="w-full h-full"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
       >
-        Toggle highlights
-      </button>
-      {showHighlights ? (
-        <SolutionsHighlight solutions={data} />
-      ) : (
-        <SolutionsGrid solutions={data} />
-      )}
-      {/* <SolutionsHighlight solutions={data} /> */}
+        <ToggleHighlights
+          showHighlights={showHighlights}
+          setShowHighlights={setShowHighlights}
+        />
+
+        {showHighlights ? (
+          <SolutionsHighlight solutions={data} />
+        ) : (
+          <SolutionsGrid solutions={data} />
+        )}
+      </motion.div>
+
+      <a
+        href="/"
+        className="btn w-64 absolute z-50 bottom-8 left-1/2 -translate-x-1/2"
+      >
+        Go again!
+      </a>
     </div>
   )
 }
