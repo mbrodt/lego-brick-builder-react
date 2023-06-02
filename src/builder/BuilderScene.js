@@ -193,7 +193,7 @@ export class BuilderScene extends Scene {
       this.bricks.add(brick)
     })
 
-    this.saveBrickPositions()
+    this.saveBrickPositions({ initial: true })
   }
   makeDirectionalLights() {
     this.mainDirectionalLight = new DirectionalLight(0xffffff, 0.3)
@@ -350,8 +350,11 @@ export class BuilderScene extends Scene {
     })
   }
 
-  saveBrickPositions() {
+  saveBrickPositions({ initial } = {}) {
     useBricksStore.setState({ bricks: this.bricks.data() })
+    if (!initial) {
+      useBricksStore.setState({ moves: useBricksStore.getState().moves + 1 })
+    }
   }
 
   render() {

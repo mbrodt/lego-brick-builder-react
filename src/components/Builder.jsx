@@ -16,6 +16,14 @@ function Builder() {
     const canvasDom = document.getElementById("builder")
 
     new Application(canvasDom, false)
+
+    const interval = setInterval(() => {
+      useBricksStore.setState({ time: useBricksStore.getState().time + 1 })
+    }, 1000)
+
+    return () => {
+      clearInterval(interval)
+    }
   }, [])
 
   function closeTips() {
@@ -28,19 +36,20 @@ function Builder() {
 
   async function submit() {
     const bricks = useBricksStore.getState().bricks
+    const time = useBricksStore.getState().time
+    const moves = useBricksStore.getState().moves
+
     const data = {
       id: uuidv4(),
       createdAt: Date.now(),
       meta: {
-        // Random number between 40 and 180
-        time: Math.floor(Math.random() * (180 - 40 + 1) + 40),
-        // Random number between 8 and 32
-        moves: Math.floor(Math.random() * (32 - 8 + 1) + 8),
+        time,
+        moves,
       },
       bricks,
     }
     console.log("data:", data)
-    await fetch("http://localhost:3000/solutions", {
+    await fetch("https://solution-store.onrender.com/solutions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
